@@ -1,0 +1,25 @@
+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
+
+
+
+        tag commands
+to find where you are -: pwd
+to use tag-: git tag -a important -m "this is important" 6a0e294
+tag show -:git show important
+delete tag-:  git tag -d important
+tag list-:  git tag
+git restore  pankajqw(file name)
+     
+                  stash command
+  create any file-:cat >file2
+  add file into staging area -: git add .
+  for stashing-:  git stash
+  to see stash list-:  git stash list
+  to apply stash -: git stash apply stash@{0}
+  to remove data from stash file-: git stash clear
+  to push data forcefully-: git push -f origin master
+   dry run -: git clean -n
+   hard run -:git clean -f
+forcefully pull the data -:git pull origin master(branch position) --allow-unrelated-histories
+
+
